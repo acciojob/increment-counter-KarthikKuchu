@@ -1,6 +1,10 @@
-let counter = document.getElementById("counter")
-let value1 = parseInt(counter.textContent)
+let counter = document.getElementById("counter");
+
 function incrementBtn() {
-	value1++;
-	counter.textContent = value1;
+  let currentValue = parseInt(counter.textContent);
+  
+  alert(currentValue);
+  
+  currentValue++;
+  counter.textContent = currentValue;
 }
